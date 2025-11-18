@@ -11,3 +11,6 @@ Accordingly, the actual cards and the selection function that determines if the 
 
 ## Authors
 jotakik
+
+https://github.com/user-attachments/assets/0ec478e1-2f13-44e8-bc90-bd51a9a6de42
+
