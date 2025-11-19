@@ -50,7 +50,13 @@ struct MemoryGame {
         if newCardIdx == -1 {
             return false
         }
+        
+        //  Ignore if card has already been opened
+        if newCardIdx == unmatchedOpenedCard1Idx || newCardIdx == unmatchedOpenedCard2Idx {
+            return false
+        }
 
+        //  Ignore if card has already been matched
         if cards[newCardIdx].isMatched {
             return false
         }
